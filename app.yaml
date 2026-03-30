@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-python-app
 spec:
-  replicas: 2  # 我们初始设置 2 个副本
+  replicas: 3 # 我们初始设置 2 个副本
   selector:
     matchLabels:
       app: python-web
