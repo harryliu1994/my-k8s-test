@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: paulbouwer/hello-kubernetes:1.10  # 这个镜像完美支持 ARM64
+        image: nginx:alpine
         ports:
         - containerPort: 8080
 ---
